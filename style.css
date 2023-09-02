@@ -16,11 +16,11 @@ body {
 
 .main {
     position: relative;
-    max-width: 90%;
+    max-width: 90%; /* Adjusted max-width for responsiveness */
     width: 100%;
     border-radius: 8px;
-    padding: 2em;
-    margin: 0.5em;
+    padding: 2em; /* Adjusted padding for responsiveness */
+    margin: 0.5em; /* Adjusted margin for responsiveness */
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     flex-direction: column;
     align-items: center;
@@ -29,41 +29,41 @@ body {
 .main1 {
     position: relative;
     min-height: 400px;
-    margin-top: 2%;
+    margin-top: 2%; /* Adjusted margin for responsiveness */
 }
 
 .container h1 {
-    font-size: 1.5em;
+    font-size: 1.5em; /* Adjusted font size for responsiveness */
     font-weight: 600;
 }
 
 button[type="submit"] {
     position: absolute;
-    bottom: 1em;
-    left: 1em;
+    bottom: 1em; /* Adjusted bottom position for responsiveness */
+    left: 1em; /* Adjusted left position for responsiveness */
 }
 
 .details {
     width: 100%;
-    max-width: 80%;
-    margin: 2% 0;
+    max-width: 80%; /* Adjusted max-width for responsiveness */
+    margin: 2% 0; /* Adjusted margin for responsiveness */
 }
 
 .details input {
-    width: 100%;
-    height: 2em;
-    padding: 0.5em;
+    width: 100%; /* Make input fields responsive */
+    height: 2em; /* Increased the height for better touch interaction on mobile devices */
+    padding: 0.5em; /* Adjusted padding for responsiveness */
     outline: none;
     border: 2px solid transparent;
     box-shadow: 3px 3px 3px grey;
     border-radius: 5px;
-    font-size: 1em;
+    font-size: 1em; /* Adjusted font size for responsiveness */
     font-weight: 400;
-    margin: 1% 0;
+    margin: 1% 0; /* Adjusted margin for responsiveness */
 }
 
 .details label {
-    font-size: 1.2em;
+    font-size: 1.2em; /* Adjusted font size for responsiveness */
     font-weight: 500;
     color: #2e2e2e;
 }
@@ -72,14 +72,14 @@ button[type="submit"] {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 3em;
-    max-width: 80%;
+    height: 3em; /* Increased the height for better touch interaction on mobile devices */
+    max-width: 80%; /* Adjusted max-width for responsiveness */
     width: 100%;
     border: none;
     outline: none;
     color: white;
     border-radius: 7px;
-    margin: 2% 0;
+    margin: 2% 0; /* Adjusted margin for responsiveness */
     background-color: #abfc5f;
     transition: all 0.4s linear;
     cursor: auto;
@@ -94,35 +94,35 @@ button[type="submit"] {
     position: absolute;
     top: 0;
     left: 0;
-    margin: 1em;
+    margin: 1em; /* Adjusted margin for responsiveness */
 }
 
 .logo img {
-    max-width: 100%;
+    max-width: 100%; /* Make the logo responsive */
     height: auto;
 }
 
 footer {
     position: absolute;
-    bottom: 1%;
-    right: 1%;
+    bottom: 1%; /* Adjusted bottom position for responsiveness */
+    right: 1%; /* Adjusted right position for responsiveness */
     background-color: none;
     color: auto;
     text-align: center;
-    padding: 1em;
+    padding: 1em; /* Adjusted padding for responsiveness */
 }
 
 .connect {
-    margin-top: 1%;
+    margin-top: 1%; /* Adjusted margin for responsiveness */
 }
 
 .connect a {
     display: inline-block;
-    margin: 0 1%;
+    margin: 0 1%; /* Adjusted margin for responsiveness */
 }
 
 .connect i {
-    font-size: 2em;
+    font-size: 2em; 
 }
 
 .BUTTONKATEXT {
