@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: 'Barlow', sans-serif;
+    background-size: cover;
+    background-image: url(mosaic-2721425.jpg);
+    background-repeat: no-repeat;
+}
+
+.main {
+   
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+    border-radius: 8px;
+    padding: 25px;
+    margin: 0 15px;
+    box-shadow: 0 5px 10px rgba(0 0 0 0.2);
+    flex-direction: column;
+    align-items: center;
+}
+
+.main1 {
+    position: relative;
+    min-height: 400px;
+    
+    margin-top: 20px;
+}
+
+.container h1 {
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+button[type="submit"] {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+.details {
+    width: 100%; 
+    max-width: 400px; 
+    margin: 15px 0; 
+}
+
+.details input {
+    width: 200px;
+}
+
+.details input {
+    height: 25px;
+    width: 80%;
+    padding: 0 15px;
+    outline : none;
+    border: 2px solid transparent;
+    box-shadow: 3px 3px 3px grey;
+    border-radius: 5px;
+    font-size : 10px;
+    font-weight: 400;
+    margin: 8px 0;
+}
+
+
+
+.details label {
+    font-size: 17px;
+    font-weight: 500;
+    color: #2e2e2e;
+}
+
+.buttonkiclass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    max-width: 180px;
+    width: 100%;
+    border: none;
+    outline: none;
+    color : white;
+    border-radius: 7px;
+    margin: 25px 0;
+    background-color: #abfc5f;
+    transition: all 0.4s linear;
+    cursor: auto;
+}
+
+.buttonkiclass:hover {
+    background-color: hwb(84 9% 7%);
+    box-shadow: 5px 5px 5px black;
+}
+
+/* .TPC {
+    font-size: 70px;
+    margin: 20px 0px 0px;
+    font-weight: 900;
+    -webkit-text-stroke: 4px black;
+    color: transparent;
+} */
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 15px;
+    
+}
+
+.logo img{
+    width:200px;
+    height: auto;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: none;
+    color: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.connect {
+    margin-top: 10px;
+}
+
+.connect a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.connect i {
+    font-size: 30px;
+}
+
+.BUTTONKATEXT {
+    font-weight: 500;
+    border:10% solid black;
+}
